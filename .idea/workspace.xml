@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="464b9f6d-0e6c-495c-ba9d-cc1ce0aa9a86" name="Default" comment="" />
+    <list default="true" id="464b9f6d-0e6c-495c-ba9d-cc1ce0aa9a86" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="softmax_func.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="softmax_func.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/softmax_func.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cross-Entropy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cross-Entropy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,6 +96,9 @@
       <find>outputs</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -99,6 +113,7 @@
         <option value="$PROJECT_DIR$/Using_the_Sigmoid_Function.py" />
         <option value="$PROJECT_DIR$/softmax_func.py" />
         <option value="$PROJECT_DIR$/Monty Hall problem.py" />
+        <option value="$PROJECT_DIR$/Cross-Entropy.py" />
       </list>
     </option>
   </component>
@@ -106,6 +121,9 @@
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -119,11 +137,6 @@
             <path>
               <item name="Pytorch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pytorch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pytorch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pytorch" type="462c0819:PsiDirectoryNode" />
-              <item name="Perceptron Alg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +159,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Monty Hall problem">
+  <component name="RunManager" selected="Python.Cross-Entropy">
+    <configuration name="Cross-Entropy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cross-Entropy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Monty Hall problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pytorch" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,24 +191,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Monty Hall problem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="OR Perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pytorch" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OR Perceptron.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,19 +251,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.OR Perceptron" />
       <item itemvalue="Python.perceptron" />
       <item itemvalue="Python.Using_the_Sigmoid_Function" />
       <item itemvalue="Python.softmax_func" />
       <item itemvalue="Python.Monty Hall problem" />
+      <item itemvalue="Python.Cross-Entropy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cross-Entropy" />
         <item itemvalue="Python.Monty Hall problem" />
         <item itemvalue="Python.softmax_func" />
         <item itemvalue="Python.Using_the_Sigmoid_Function" />
         <item itemvalue="Python.perceptron" />
-        <item itemvalue="Python.OR Perceptron" />
       </list>
     </recent_temporary>
   </component>
@@ -269,14 +282,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.511254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.511254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -512,6 +524,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cross-Entropy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
