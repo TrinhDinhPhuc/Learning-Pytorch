@@ -4,7 +4,6 @@ import numpy as np
 '''
 Eg: CE[(1,1,0),(0.8,0.7,0.1)]
 np.log is ln, whereas np.log10 is your standard base 10 log.
-
 '''
 def cross_entropy(Y, P):
     _sum = 0
